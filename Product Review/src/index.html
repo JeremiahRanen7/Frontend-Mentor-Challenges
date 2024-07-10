@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Product Review Card</title>
+</head>
+<body class="bg-cream w-full min-h-screen flex justify-center items-center">
+   <div class="sm:w-[550px] w-[350px] bg-white flex sm:flex-row flex-col rounded-xl max-sm:overflow-hidden">
+    <img src="./images/image-product-desktop.jpg" alt="" class="sm:h-full sm:w-1/2 w-full h-48 sm:rounded-l-xl sm:rounded-r-none max-sm:object-cover">
+    <div class="flex flex-col justify-start p-6 gap-4">
+        <p class="uppercase text-darkGrayishBlue tracking-[0.4em] font-montserrat text-xs">perfume</p>
+        <h1 class="text-3xl font-fraunces font-bold">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-darkGrayishBlue font-montserrat text-sm line-clamp-4 font-medium"> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="flex justify-start items-center gap-4">
+            <p class="text-3xl text-primary font-bold font-fraunces">$149.99</p>
+            <p class="font-montserrat text-darkGrayishBlue line-through text-sm font-medium">$169.99</p>
+        </div>
+        <button class="px-4 py-4 bg-primary text-white self-stretch rounded-lg font-montserrat text-sm font-semibold flex justify-center items-center gap-3">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>Add to Cart</div></button>
+    </div>
+   </div>
+</body>
+</html>

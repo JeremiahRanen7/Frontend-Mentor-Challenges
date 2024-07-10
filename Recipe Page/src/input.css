@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: left;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
