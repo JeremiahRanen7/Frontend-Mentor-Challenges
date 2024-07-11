@@ -1,5 +1,5 @@
 # Frontend-Mentor-Challenges
-_These are some of the frontend mentor challenges that I have completed.All of these challenges are being done with the help of *TailwindCSS*_
+_These are some of the frontend mentor challenges that I have completed.All of these challenges are being done with the help of *TailwindCSS*_.
 
 # Challenges Done :
 
